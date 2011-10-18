@@ -1,0 +1,16 @@
+{
+  "name":"Chrome to iOS",
+  "version": "1.0.0",
+  "description": "Send information from Chrome to your iOS",
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_title": "Chrome to iOS"
+    // "default_popup": "popup.html"
+	},
+  "permissions": [
+    "tabs",
+    "https://*/*",
+    "http://*/*"
+  ],
+  "background_page" : "background.html"
+}
